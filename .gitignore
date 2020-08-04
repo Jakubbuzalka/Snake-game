@@ -1,9 +1,11 @@
-# created by virtualenv automatically
 Lib
 Scripts
 pyvenv.cfg
+__pycache__/
+*.pyc/
 
 *.log
 *.env
 
+*.vscode
 
