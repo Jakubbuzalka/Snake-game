@@ -6,7 +6,7 @@ def createBoard(board:dict):
     """
     arrOfSnakes = []
     for j in range(2):
-        for i in range(0,6):
+        for _ in range(0,6):
             x = random.randint(0,100)
             y = random.randint(0,100 - x)
             while y == x: 
